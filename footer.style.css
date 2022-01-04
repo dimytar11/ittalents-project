@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+.footer-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    background-color: #2b3c53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-top: -4px;
+
+}
+
+.logo img {
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+
+}
+
+
+.phone-time-wrapper span {
+
+    color: #cbcbcb;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    letter-spacing: 2px;
+}
+.phone-time-wrapper .phone-wrapper  {
+    font-size: 0.8em;
+}
+
+.phone-time-wrapper .time-wrapper {
+    font-size: 0.8em;
+    color: #05b3e8;
+    text-transform: uppercase;
+
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+
+    font-weight: 400;
+}
+
+.nav-wrapper .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.nav-wrapper .nav-link a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+
+.nav-wrapper .nav-link a:hover {
+    text-decoration: none;
+    color: #05b3e8;
+    letter-spacing: 2px;
+}
+
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper>.social-media a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper>.social-media a:hover {
+    color: #05b3e8;
+}
+
+.footer-wrapper>.copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
